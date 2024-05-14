@@ -1,0 +1,1 @@
+import{c as a,a as o}from"./base.CKaqUdIP.js";const e=a("theme-storage-key","light",{storageType:o.Local,liveUpdate:!0}),g={...e,toggle:async()=>{await e.set(t=>t==="light"?"dark":"light")}};async function r(){await g.toggle()}r();

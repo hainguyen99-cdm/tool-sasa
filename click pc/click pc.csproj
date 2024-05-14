@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>click_pc</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapplo.Windows.User32" Version="1.0.28" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.20.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="124.0.6367.9100" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>bin\Debug\net6.0-windows\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="KAutoHelper">
+      <HintPath>bin\Debug\net6.0-windows\KAutoHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

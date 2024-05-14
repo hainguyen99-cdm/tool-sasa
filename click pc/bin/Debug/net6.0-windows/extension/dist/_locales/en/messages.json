@@ -1,0 +1,323 @@
+{
+  "extensionDescription": {
+    "description": "Extension description",
+    "message": "Nurture your crops and battle out for a massive prize pool in Harvest Heist, a new game landed in Sasa."
+  },
+  "extensionName": {
+    "description": "Extension name",
+    "message": "Sasa"
+  },
+  "login": {
+    "message": "Login with X"
+  },
+  "home": {
+    "message": "Home"
+  },
+  "quest": {
+    "message": "Quest"
+  },
+  "store": {
+    "message": "Store"
+  },
+  "referrals": {
+    "message": "Referrals"
+  },
+  "my_bag": {
+    "message": "My Bag"
+  },
+  "snows": {
+    "message": "Snowflakes"
+  },
+  "snow": {
+    "message": "Snowflake"
+  },
+  "to_lv_up": {
+    "message": " to level up"
+  },
+  "wear": {
+    "message": "Wear"
+  },
+  "skin": {
+    "message": "Skin"
+  },
+  "upgrade": {
+    "message": "Upgrade"
+  },
+  "newbie_quest": {
+    "message": "Newbie Quests"
+  },
+  "daily_quest": {
+    "message": "Daily Quests"
+  },
+  "onetime": {
+    "message": "Onetime"
+  },
+  "daily": {
+    "message": "Daily"
+  },
+  "share_your_ref": {
+    "message": "Share your referral link to your friends"
+  },
+  "all_referrals": {
+    "message": "Referred Citizens"
+  },
+  "total_earned": {
+    "message": "Total Earned"
+  },
+  "claim_now": {
+    "message": "Claim now"
+  },
+  "invite_your_friend": {
+    "message": "Share your referral codes to your friends"
+  },
+  "price": {
+    "message": "Price"
+  },
+  "limit": {
+    "message": "Limit"
+  },
+  "buy_for": {
+    "message": "Buy for "
+  },
+  "use_this": {
+    "message": "Use"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "open_treasure": {
+    "message": "Open Golden Bag"
+  },
+  "golden_bag_des_1": {
+    "message": "Reply on this post at least "
+  },
+  "golden_bag_des_2": {
+    "message": " characters and include hashtag "
+  },
+  "golden_bag_des_3": {
+    "message": " to open the bag!"
+  },
+  "golden_bag_des": {
+    "message": "Reply on this post at least 14 characters and include hashtag #saworld to open the bag!"
+  },
+  "golden_bag_button": {
+    "message": "Open"
+  },
+  "golden_bag_open_title": {
+    "message": "Congratulations!"
+  },
+  "golden_bag_open_content_1": {
+    "message": "Congratulations! You've received "
+  },
+  "golden_bag_open_content_2": {
+    "message": ". There are many undiscovered golden bags here in X. Keep hunting"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "lack_of_fragment": {
+    "message": "You haven't collected all 8 fragments "
+  },
+  "binding_quests": {
+    "message": "Binding quests "
+  },
+  "des_skin": {
+    "message": "Upgrade your Sasa or change outfits to receive more benefits"
+  },
+  "des_ap_1": {
+    "message": "AP stands for Active Points. Use AP to exchange for SAE lucky boxes in "
+  },
+  "des_ap_2": {
+    "message": " now!"
+  },
+  "des_ap_3": {
+    "message": "Withdraw to SA World account: Coming soon!"
+  },
+  "des_asg_1": {
+    "message": "ASG is a currency "
+  },
+  "des_asg_2": {
+    "message": "Buy EN with ASG in "
+  },
+  "des_asg_3": {
+    "message": " to get more SAE airdrop now!"
+  },
+  "des_asg_4": {
+    "message": " Withdraw"
+  },
+  "sa_world": {
+    "message": "SA World"
+  },
+  "use_now": {
+    "message": "Use now"
+  },
+  "explore_sa": {
+    "message": "Explore SA World"
+  },
+  "claim_quest_error": {
+    "message": "You must complete this quest to claim. If you have completed, please wait a moment."
+  },
+  "reached_max_level": {
+    "message": "You have reached max level"
+  },
+  "create_wallet": { "message": "Create a new wallet" },
+  "import": { "message": "Import" },
+  "import_wallet": { "message": "Import an existing wallet" },
+  "importing": { "message": "Importing" },
+  "submitting": { "message": "Submitting" },
+  "enter_info": { "message": "Please enter your information" },
+  "seed_phrase": { "message": "12-word phrase" },
+  "private_key": { "message": "Private key" },
+  "create_password": { "message": "Create a Password" },
+  "import_password": { "message": "Welcome to Sasa Wallet" },
+  "create_password_for_your_wallet": { "message": "You need this password to unlock your wallet." },
+  "password_to_participate": { "message": "Enter the password to unlock" },
+  "confirm_password_label": { "message": "Confirm Password" },
+  "save_password_hint": { "message": "* Save the password for the next login" },
+  "submit_button_text": { "message": "Submit" },
+  "required": { "message": "Required" },
+  "password_not_match": { "message": "Passwords do not match" },
+  "password_conditional_1": { "message": "Password must be between 8 and 36 characters long." },
+  "password_conditional_2": { "message": "Password must contain at least one uppercase letter." },
+  "refresh_balance": { "message": "Refresh Balance" },
+  "transfer": { "message": "Transfer" },
+  "claim": { "message": "Claim" },
+  "back": { "message": "Back" },
+  "successfully": { "message": "Successfully" },
+  "wrong_password": { "message": "Wrong password" },
+  "current_password": { "message": "Current Password" },
+  "new_password": { "message": "New Password" },
+  "assets": { "message": "Assets" },
+  "address": { "message": "Address" },
+  "connect_wallet_sa_account": { "message": "Connect wallet to your SA Account" },
+  "never_share_key": {
+    "message": "Never share your private key with anyone! It controls your account. "
+  },
+
+  "note_key": {
+    "message": "Note: Your private key is securely encrypted by a 3rd-party service and we can not access it"
+  },
+  "copy_key": { "message": "Copy Key" },
+  "qr_code": { "message": "Qr Code" },
+  "something_wrong": { "message": "Something went wrong. Please try again later." },
+  "enter_confirm": { "message": "Enter your password" },
+  "notice": { "message": "Notice" },
+  "do_you_want_transfer": { "message": "Do you want to transfer" },
+  "to_wallet": { "message": "to wallet address" },
+  "with_a_fee": { "message": "with a fee of" },
+  "reject": { "message": "Reject" },
+  "transaction_successful": { "message": "Transaction Successful!" },
+  "check_transaction_id": { "message": "Check your transaction ID below" },
+  "finish": { "message": "Finish" },
+  "insufficient_funds_for_gas": { "message": "Insufficient funds for gas" },
+  "create_transaction_again": { "message": "Create Transaction Failed. Please try again!" },
+  "choose_assets": {
+    "message": "Choose assets to transfer, please make sure you have entered the correct wallet address."
+  },
+  "enter_address": { "message": "Enter Address" },
+  "your_balance": { "message": "Your balance:" },
+  "max": { "message": "MAX" },
+  "about_sasa": { "message": "About Sasa" },
+  "actions": { "message": "Actions" },
+  "export_wallet": { "message": "Export Wallet" },
+  "change_password": { "message": "Change Password" },
+  "log_out": { "message": "Log out" },
+  "deposit": { "message": "Deposit" },
+  "close": { "message": "Close" },
+  "token": { "message": "Token" },
+  "setting": { "message": "Setting" },
+  "my_wallet": { "message": "My Wallet" },
+  "amount": { "message": "Amount" },
+  "binding": { "message": "Binding" },
+  "sign_up": { "message": "Sign Up" },
+  "do_not_have_an_account": { "message": "Do not have an account?" },
+  "enter_code": { "message": "Enter your citizen code" },
+  "available": { "message": "Available" },
+  "confirm_all_information_is_exactly": { "message": "Confirm all information is exactly." },
+  "sasa_account": { "message": "SASA Account" },
+  "transfer_your_assets": { "message": "Transfer your assets from external wallet to SA Wallet." },
+  "creating_it_means": {
+    "message": "Your Sasa account will be permanently linked to this wallet?"
+  },
+  "you_need_a_code": {
+    "message": "You need a code to participate. If you don&apos;t have one, you can find a code on our"
+  },
+  "twitter_profile": { "message": "Twitter profile" },
+  "code_is_required": { "message": "Code is required." },
+  "you_need_to_complete_binding_quests_to_continue": { "message": "You need to complete binding quests to continue" },
+  "go_to_binding_quests": { "message": "Go to Binding Quests" },
+  "has_won_a_free_mint_whitelist_slot": { "message": " has won a free mint whitelist slot." },
+  "coming_soon": { "message": "Coming soon" },
+  "mint_now": { "message": "Mint now!" },
+  "please_select_a_feature_to_use": { "message": "Please select a feature to use" },
+  "congratulations_on_unlocking_the_gift_of": { "message": "Congratulations on unlocking the gift of" },
+  "and": { "message": "and" },
+  "completed": { "message": "Completed" },
+  "waiting": { "message": "Waiting" },
+  "bind_now": { "message": "Bind now" },
+  "do_now": { "message": "Do now" },
+  "reward": { "message": "Reward" },
+  "claimed": { "message": "Claimed" },
+  "complete_quest": { "message": "Complete 2 quests to claim the Summer Heat Skin." },
+  "add_wallet_airdrop": { "message": " Add your wallet address to receive airdrop rewards." },
+  "cancel_binding": { "message": " Cancel binding" },
+  "bind_sa_acocunt": { "message": "Bind to your SA Account" },
+  "this_citizen_code": {
+    "message": "This citizen code is already linked to another account. Please use a different code!"
+  },
+  "bag_drops": { "message": "This bag drops more Gold than Normal bags. Giving bonus Gold if you wear skins" },
+  "hunt_this_bag": { "message": "Hunt this bag while browsing Twitter to get more gold!" },
+  "save_change": { "message": "Save change" },
+  "error_try_again": { "message": "An error occurred, please try again later!" },
+  "do_your_want_upgrade": { "message": "Do you want to upgrade your sasa?" },
+  "using_snowflake": {
+    "message": "  Using Snowflakes to upgrade Sasa level. The higher the level, the more daily gifts you receive."
+  },
+  "how_to_get_code": { "message": "How to get the code?" },
+  "connect_now": { "message": "Connect wallet now!" },
+  "how_to_connect_sa_account": { "message": "How to connect your wallet to your SA Account?" },
+  "do_you_want_binding": { "message": "Do you want to cancel binding?" },
+  "gold": { "message": " Gold:" },
+  "daily_2": { "message": "daily" },
+  "golden_bag": { "message": "Golden Bag:" },
+  "spring_skin": { "message": "Spring Blessing Skin:" },
+  "summer_skin": { "message": "Summer Heat Skin:" },
+  "autumn_skin": { "message": "Autumn Wind Skin:" },
+  "copy_success": { "message": "Copy successfully!" },
+  "we_can_not_recover": { "message": "We can not recover this password for you." },
+  "unlock": { "message": "Unlock" },
+  "enter_password": { "message": "Enter Password" },
+  "des_gem_1": {
+    "message": "Use USDT on INJ network to buy ASG packages."
+  },
+  "des_gem_2": {
+    "message": "Check instructions for owning USDT >> "
+  },
+  "would_you_like_to_continue": {
+    "message": "Would you like to continue"
+  },
+  "bind_to_sa": {
+    "message": "Bind to SA Account to explore more >> "
+  },
+  "citizen_link": {
+    "message": "Linked Citizen"
+  },
+  "you_receive": {
+    "message": "You receive"
+  },
+  "you_pay": {
+    "message": "You pay"
+  },
+  "estimate_fee": {
+    "message": "Estimate fee:"
+  },
+  "checkbox_confirm": {
+    "message": "I understand that Sasa cannot recover this password for me"
+  },
+  "forgot_password": {
+    "message": "Forgot your password?"
+  }
+}

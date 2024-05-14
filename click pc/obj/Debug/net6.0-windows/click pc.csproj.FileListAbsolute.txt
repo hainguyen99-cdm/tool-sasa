@@ -1,0 +1,58 @@
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\click pc.exe
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\click pc.deps.json
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\click pc.runtimeconfig.json
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\click pc.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\click pc.pdb
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.AssemblyReference.cache
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click_pc.Form1.resources
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.GenerateResource.cache
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.AssemblyInfoInputs.cache
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.AssemblyInfo.cs
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.CoreCompileInputs.cache
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.CopyComplete
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.dll
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\refint\click pc.dll
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.pdb
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\click pc.genruntimeconfig.cache
+D:\repos\click pc\click pc\obj\Debug\net6.0-windows\ref\click pc.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Log.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Windows.Common.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Windows.Messages.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Windows.User32.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\System.Reactive.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\selenium-manager\linux\selenium-manager
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\selenium-manager\macos\selenium-manager
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\selenium-manager\windows\selenium-manager.exe
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\WebDriver.dll
+D:\repos\click pc\click pc\bin\Debug\net6.0-windows\SeleniumExtras.WaitHelpers.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\selenium-manager\linux\selenium-manager
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\selenium-manager\macos\selenium-manager
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\selenium-manager\windows\selenium-manager.exe
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\click pc.exe
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\click pc.deps.json
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\click pc.runtimeconfig.json
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\click pc.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\click pc.pdb
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Log.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Windows.Common.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Windows.Messages.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Dapplo.Windows.User32.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\WebDriver.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\SeleniumExtras.WaitHelpers.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\System.Reactive.dll
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.AssemblyReference.cache
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click_pc.Form1.resources
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.GenerateResource.cache
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.AssemblyInfoInputs.cache
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.AssemblyInfo.cs
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.CoreCompileInputs.cache
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.csproj.CopyComplete
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.dll
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\refint\click pc.dll
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.pdb
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.genruntimeconfig.cache
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\ref\click pc.dll

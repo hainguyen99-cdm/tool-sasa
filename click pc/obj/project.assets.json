@@ -1,0 +1,481 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Dapplo.Log/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dapplo.Log.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapplo.Log.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dapplo.Windows.Common/1.0.28": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Dapplo.Windows.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Dapplo.Windows.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Dapplo.Windows.Messages/1.0.28": {
+        "type": "package",
+        "dependencies": {
+          "Dapplo.Log": "2.0.1",
+          "Dapplo.Windows.Common": "1.0.28",
+          "System.Reactive": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Dapplo.Windows.Messages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Dapplo.Windows.Messages.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Dapplo.Windows.User32/1.0.28": {
+        "type": "package",
+        "dependencies": {
+          "Dapplo.Log": "2.0.1",
+          "Dapplo.Windows.Common": "1.0.28",
+          "Dapplo.Windows.Messages": "1.0.28",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Dapplo.Windows.User32.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Dapplo.Windows.User32.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.20.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Selenium.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/124.0.6367.9100": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "SeleniumExtras.WaitHelpers/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-beta2"
+        },
+        "compile": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapplo.Log/2.0.1": {
+      "sha512": "y5zaFCcOvvJxm01/Tg+teOJf5x1wz8WiwR8D+SoG+zQtoxBSLHH207tIBhqM/YegtECIcMoE0D0VWgNEqoo5MQ==",
+      "type": "package",
+      "path": "dapplo.log/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapplo.log.2.0.1.nupkg.sha512",
+        "dapplo.log.nuspec",
+        "icon.png",
+        "lib/net471/Dapplo.Log.dll",
+        "lib/net471/Dapplo.Log.xml",
+        "lib/netstandard1.1/Dapplo.Log.dll",
+        "lib/netstandard1.1/Dapplo.Log.xml",
+        "lib/netstandard1.3/Dapplo.Log.dll",
+        "lib/netstandard1.3/Dapplo.Log.xml",
+        "lib/netstandard2.0/Dapplo.Log.dll",
+        "lib/netstandard2.0/Dapplo.Log.xml"
+      ]
+    },
+    "Dapplo.Windows.Common/1.0.28": {
+      "sha512": "HKIXTytsVJHx04cP1bpcNSYC9TZU0ptVTWf2fP2Tsvo9jtUKQsMR+tZ51izUat3wzOiKmbvflTJQdi7ND/3bEw==",
+      "type": "package",
+      "path": "dapplo.windows.common/1.0.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapplo.windows.common.1.0.28.nupkg.sha512",
+        "dapplo.windows.common.nuspec",
+        "icon.png",
+        "lib/net472/Dapplo.Windows.Common.dll",
+        "lib/net472/Dapplo.Windows.Common.xml",
+        "lib/net6.0-windows7.0/Dapplo.Windows.Common.dll",
+        "lib/net6.0-windows7.0/Dapplo.Windows.Common.xml",
+        "lib/netcoreapp3.1/Dapplo.Windows.Common.dll",
+        "lib/netcoreapp3.1/Dapplo.Windows.Common.xml",
+        "lib/netstandard2.0/Dapplo.Windows.Common.dll",
+        "lib/netstandard2.0/Dapplo.Windows.Common.xml"
+      ]
+    },
+    "Dapplo.Windows.Messages/1.0.28": {
+      "sha512": "Ec1EwfopuklXWuHO57MvL6WyO0qTv6u8ZveiHVcl2wKGq0832leRuCP5yFtUr8T9dyS0ljAW6yOlojf7AmUobQ==",
+      "type": "package",
+      "path": "dapplo.windows.messages/1.0.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapplo.windows.messages.1.0.28.nupkg.sha512",
+        "dapplo.windows.messages.nuspec",
+        "icon.png",
+        "lib/net472/Dapplo.Windows.Messages.dll",
+        "lib/net472/Dapplo.Windows.Messages.xml",
+        "lib/net6.0-windows7.0/Dapplo.Windows.Messages.dll",
+        "lib/net6.0-windows7.0/Dapplo.Windows.Messages.xml",
+        "lib/netcoreapp3.1/Dapplo.Windows.Messages.dll",
+        "lib/netcoreapp3.1/Dapplo.Windows.Messages.xml",
+        "lib/netstandard2.0/Dapplo.Windows.Messages.dll",
+        "lib/netstandard2.0/Dapplo.Windows.Messages.xml"
+      ]
+    },
+    "Dapplo.Windows.User32/1.0.28": {
+      "sha512": "ouX93p7LWBsXsNPbRoW0uDplR+he1i/h9n9GJjsOssTs+q6poiYQkUIz19S+cA6sNeMDSuWdXcLpAc9T5GI9Hg==",
+      "type": "package",
+      "path": "dapplo.windows.user32/1.0.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapplo.windows.user32.1.0.28.nupkg.sha512",
+        "dapplo.windows.user32.nuspec",
+        "icon.png",
+        "lib/net472/Dapplo.Windows.User32.dll",
+        "lib/net472/Dapplo.Windows.User32.xml",
+        "lib/net6.0-windows7.0/Dapplo.Windows.User32.dll",
+        "lib/net6.0-windows7.0/Dapplo.Windows.User32.xml",
+        "lib/netcoreapp3.1/Dapplo.Windows.User32.dll",
+        "lib/netcoreapp3.1/Dapplo.Windows.User32.xml",
+        "lib/netstandard2.0/Dapplo.Windows.User32.dll",
+        "lib/netstandard2.0/Dapplo.Windows.User32.xml"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Selenium.WebDriver/4.20.0": {
+      "sha512": "Z9rYD5t2d7nBhjluj5MxnrTqMjrfGDQSXWThIdBMwgpVCGTcHMYot7nWV3XoVnUtUBb5wrYag++GV9vq/evTZQ==",
+      "type": "package",
+      "path": "selenium.webdriver/4.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
+        "icon.png",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.20.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/124.0.6367.9100": {
+      "sha512": "7reJ4ntq+LcvoW606W9xXYT4i4Uiy5Q0D58Ro09ITTerrHJocI7pF5G/0b9jx9DQJT5djhTfr1WqZK3RDjOCMQ==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/124.0.6367.9100",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.124.0.6367.9100.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "SeleniumExtras.WaitHelpers/1.0.2": {
+      "sha512": "de7m30nkZZLkfCncYBdluUpM27AR/Vkk4kiA4HRQbV+fZI3ps4qGIeJCuj8TAMXdMfQik5Rno8xPnFBIod+ebg==",
+      "type": "package",
+      "path": "seleniumextras.waithelpers/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll",
+        "seleniumextras.waithelpers.1.0.2.nupkg.sha512",
+        "seleniumextras.waithelpers.nuspec"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Dapplo.Windows.User32 >= 1.0.28",
+      "Selenium.WebDriver >= 4.20.0",
+      "Selenium.WebDriver.ChromeDriver >= 124.0.6367.9100",
+      "SeleniumExtras.WaitHelpers >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Risechi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\repo\\click pc\\click pc\\click pc\\click pc.csproj",
+      "projectName": "click pc",
+      "projectPath": "D:\\repo\\click pc\\click pc\\click pc\\click pc.csproj",
+      "packagesPath": "C:\\Users\\Risechi\\.nuget\\packages\\",
+      "outputPath": "D:\\repo\\click pc\\click pc\\click pc\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Risechi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Dapplo.Windows.User32": {
+            "target": "Package",
+            "version": "[1.0.28, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.20.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[124.0.6367.9100, )"
+          },
+          "SeleniumExtras.WaitHelpers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

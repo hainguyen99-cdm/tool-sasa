@@ -1,0 +1,405 @@
+
+sasadance.png
+size: 2048,1635
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 1179, 621
+  size: 395, 641
+  orig: 395, 641
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 573, 1032
+  size: 630, 602
+  orig: 640, 677
+  offset: 0, 5
+  index: -1
+hair-b
+  rotate: true
+  xy: 997, 575
+  size: 265, 257
+  orig: 265, 257
+  offset: 0, 0
+  index: -1
+hair-bun
+  rotate: false
+  xy: 1555, 335
+  size: 491, 401
+  orig: 496, 402
+  offset: 0, 1
+  index: -1
+hand
+  rotate: false
+  xy: 351, 576
+  size: 137, 169
+  orig: 169, 170
+  offset: 0, 1
+  index: -1
+l-arm
+  rotate: false
+  xy: 2, 500
+  size: 421, 194
+  orig: 421, 194
+  offset: 0, 0
+  index: -1
+l-bang
+  rotate: true
+  xy: 725, 835
+  size: 260, 444
+  orig: 260, 444
+  offset: 0, 0
+  index: -1
+l-eye
+  rotate: false
+  xy: 1072, 1001
+  size: 134, 114
+  orig: 134, 114
+  offset: 0, 0
+  index: -1
+l-eyebrown
+  rotate: false
+  xy: 1962, 1496
+  size: 82, 37
+  orig: 83, 38
+  offset: 0, 1
+  index: -1
+l-hand-f
+  rotate: false
+  xy: 992, 454
+  size: 136, 86
+  orig: 136, 87
+  offset: 0, 1
+  index: -1
+l-iris
+  rotate: false
+  xy: 1965, 1088
+  size: 80, 83
+  orig: 80, 83
+  offset: 0, 0
+  index: -1
+l-leg
+  rotate: true
+  xy: 1487, 92
+  size: 175, 358
+  orig: 175, 358
+  offset: 0, 0
+  index: -1
+level2/Layer 128
+  rotate: false
+  xy: 1367, 443
+  size: 203, 185
+  orig: 203, 185
+  offset: 0, 0
+  index: -1
+level2/Layer 131
+  rotate: false
+  xy: 1671, 1421
+  size: 94, 37
+  orig: 94, 37
+  offset: 0, 0
+  index: -1
+level2/body
+  rotate: false
+  xy: 1771, 228
+  size: 257, 313
+  orig: 263, 313
+  offset: 0, 0
+  index: -1
+level2/cavat
+  rotate: false
+  xy: 1243, 278
+  size: 167, 82
+  orig: 167, 82
+  offset: 0, 0
+  index: -1
+level2/day
+  rotate: false
+  xy: 1561, 25
+  size: 402, 89
+  orig: 402, 89
+  offset: 0, 0
+  index: -1
+level2/dress 1
+  rotate: 180
+  xy: 89, 411
+  size: 195, 141
+  orig: 199, 169
+  offset: 4, 28
+  index: -1
+level2/dress 2
+  rotate: false
+  xy: 1803, 58
+  size: 194, 195
+  orig: 194, 195
+  offset: 0, 0
+  index: -1
+level2/headphone
+  rotate: 270
+  xy: 2, 295
+  size: 737, 740
+  orig: 737, 740
+  offset: 0, 0
+  index: -1
+level2/l-arm
+  rotate: false
+  xy: 509, 581
+  size: 451, 214
+  orig: 451, 214
+  offset: 0, 0
+  index: -1
+level2/l-hand-f
+  rotate: false
+  xy: 1001, 366
+  size: 135, 86
+  orig: 135, 86
+  offset: 0, 0
+  index: -1
+level2/l-leg
+  rotate: 270
+  xy: 119, 153
+  size: 232, 510
+  orig: 232, 510
+  offset: 0, 0
+  index: -1
+level2/neck
+  rotate: false
+  xy: 1256, 531
+  size: 103, 116
+  orig: 103, 116
+  offset: 0, 0
+  index: -1
+level2/r-arm
+  rotate: 180
+  xy: 590, 31
+  size: 340, 139
+  orig: 340, 139
+  offset: 0, 0
+  index: -1
+level2/r-leg
+  rotate: true
+  xy: 86, 646
+  size: 171, 370
+  orig: 171, 377
+  offset: 0, 0
+  index: -1
+level3/body
+  rotate: 180
+  xy: 1693, 1112
+  size: 276, 521
+  orig: 276, 521
+  offset: 0, 0
+  index: -1
+level3/l-arm
+  rotate: false
+  xy: 1012, 42
+  size: 431, 212
+  orig: 431, 212
+  offset: 0, 0
+  index: -1
+level3/l-leg
+  rotate: true
+  xy: 1261, 123
+  size: 231, 509
+  orig: 231, 509
+  offset: 0, 0
+  index: -1
+level3/neck
+  rotate: true
+  xy: 1072, 17
+  size: 104, 110
+  orig: 104, 110
+  offset: 0, 0
+  index: -1
+level4/neck
+  rotate: true
+  xy: 1072, 17
+  size: 104, 110
+  orig: 104, 110
+  offset: 0, 0
+  index: -1
+level3/r-arm
+  rotate: true
+  xy: 1907, 1131
+  size: 340, 139
+  orig: 340, 139
+  offset: 0, 0
+  index: -1
+level3/r-leg
+  rotate: false
+  xy: 1231, 1123
+  size: 175, 379
+  orig: 175, 379
+  offset: 0, 0
+  index: -1
+level4/Phao
+  rotate: false
+  xy: 2, 1064
+  size: 569, 569
+  orig: 569, 569
+  offset: 0, 0
+  index: -1
+level4/body
+  rotate: true
+  xy: 622, 185
+  size: 264, 692
+  orig: 270, 692
+  offset: 0, 0
+  index: -1
+level4/coi
+  rotate: false
+  xy: 1226, 1073
+  size: 91, 48
+  orig: 91, 48
+  offset: 0, 0
+  index: -1
+level4/daycoi
+  rotate: 180
+  xy: 408, 3
+  size: 288, 92
+  orig: 288, 92
+  offset: 0, 0
+  index: -1
+level4/dressa
+  rotate: false
+  xy: 329, 76
+  size: 292, 154
+  orig: 292, 154
+  offset: 0, 0
+  index: -1
+level4/dressb
+  rotate: false
+  xy: 1879, 1535
+  size: 128, 99
+  orig: 128, 99
+  offset: 0, 0
+  index: -1
+level4/dressc
+  rotate: false
+  xy: 1490, 1504
+  size: 199, 129
+  orig: 199, 129
+  offset: 0, 0
+  index: -1
+level4/l-arm
+  rotate: false
+  xy: 539, 459
+  size: 451, 214
+  orig: 451, 214
+  offset: 0, 0
+  index: -1
+level4/r-leg
+  rotate: false
+  xy: 1518, 648
+  size: 169, 359
+  orig: 169, 359
+  offset: 0, 0
+  index: -1
+level4/r_hand
+  rotate: 180
+  xy: 2, 54
+  size: 340, 139
+  orig: 340, 139
+  offset: 0, 0
+  index: -1
+level4/vong vang
+  rotate: false
+  xy: 573, 1488
+  size: 55, 68
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+level4/vong vang back
+  rotate: false
+  xy: 1999, 1571
+  size: 46, 62
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+level4/vong xanh
+  rotate: false
+  xy: 1306, 1424
+  size: 49, 71
+  orig: 49, 71
+  offset: 0, 0
+  index: -1
+level4/vong xanh back
+  rotate: false
+  xy: 1203, 1380
+  size: 35, 67
+  orig: 35, 67
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 573, 1546
+  size: 143, 88
+  orig: 143, 88
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 2, 257
+  size: 105, 110
+  orig: 105, 111
+  offset: 0, 0
+  index: -1
+r-arm
+  rotate: false
+  xy: 729, 76
+  size: 342, 140
+  orig: 342, 140
+  offset: 0, 0
+  index: -1
+r-bang
+  rotate: 180
+  xy: 1170, 1007
+  size: 550, 627
+  orig: 550, 627
+  offset: 0, 0
+  index: -1
+r-eye
+  rotate: false
+  xy: 1781, 991
+  size: 162, 121
+  orig: 162, 124
+  offset: 0, 0
+  index: -1
+r-eyebrown
+  rotate: false
+  xy: 1103, 1593
+  size: 81, 40
+  orig: 86, 41
+  offset: 4, 0
+  index: -1
+r-iris
+  rotate: false
+  xy: 1642, 1445
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+r-leg
+  rotate: true
+  xy: 2, 897
+  size: 165, 357
+  orig: 169, 357
+  offset: 0, 0
+  index: -1
+skirt-b
+  rotate: false
+  xy: 1669, 706
+  size: 377, 359
+  orig: 436, 396
+  offset: 0, 37
+  index: -1
+staff
+  rotate: 180
+  xy: 484, 280
+  size: 1076, 929
+  orig: 1076, 929
+  offset: 0, 0
+  index: -1
