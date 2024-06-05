@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "default_locale": "en",
   "name": "__MSG_extensionName__",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "__MSG_extensionDescription__",
   "permissions": [
     "storage"
@@ -32,7 +32,7 @@
         "src/pages/content/index.js"
       ],
       "css": [
-        "assets/css/contentStyle1714056527049.chunk.css"
+        "assets/css/contentStyle1715679892165.chunk.css"
       ]
     }
   ],

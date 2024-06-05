@@ -1,0 +1,15 @@
+2024/05/31-09:35:37.124 2bfc Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\WebStorage\5\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2024/05/31-09:35:37.125 2bfc Recovering log #7
+2024/05/31-09:35:37.125 2bfc Reusing old log D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\WebStorage\5\IndexedDB\indexeddb.leveldb/000007.log 
+2024/05/31-09:45:57.874 b2b0 Level-0 table #12: started
+2024/05/31-09:45:57.876 b2b0 Level-0 table #12: 209 bytes OK
+2024/05/31-09:45:57.878 b2b0 Delete type=0 #7
+2024/05/31-09:45:57.878 b2b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/05/31-09:45:57.879 b2b0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 72 : 1
+2024/05/31-09:45:57.879 b2b0 Compacting 1@1 + 1@2 files
+2024/05/31-09:45:57.880 b2b0 Generated table #13@1: 23 keys, 812 bytes
+2024/05/31-09:45:57.880 b2b0 Compacted 1@1 + 1@2 files => 812 bytes
+2024/05/31-09:45:57.881 b2b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/31-09:45:57.882 b2b0 Delete type=2 #9
+2024/05/31-09:45:57.882 b2b0 Delete type=2 #12
+2024/05/31-09:45:57.882 b2b0 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 72 : 1 .. (end); will stop at (end)

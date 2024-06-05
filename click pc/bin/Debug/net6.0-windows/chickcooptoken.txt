@@ -1,0 +1,1 @@
+query_id=AAHLNj0uAAAAAMs2PS5MUsCi&user=%7B%22id%22%3A775763659%2C%22first_name%22%3A%22X%22%2C%22last_name%22%3A%22Magneto%22%2C%22username%22%3A%22haidb1%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1716631563&hash=dbb9fa0240f3611dad7b57bba41902b88bb3a4cdb70e127a8aae75d82acf7d8a

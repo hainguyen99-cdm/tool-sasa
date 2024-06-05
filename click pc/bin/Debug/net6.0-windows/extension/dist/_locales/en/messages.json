@@ -1,7 +1,7 @@
 {
   "extensionDescription": {
     "description": "Extension description",
-    "message": "Nurture your crops and battle out for a massive prize pool in Harvest Heist, a new game landed in Sasa."
+    "message": "Discover an exclusive play-to-airdrop event! Set up the extension, level up your Sasa by completing quests and collect gold!"
   },
   "extensionName": {
     "description": "Extension name",
@@ -10,8 +10,8 @@
   "login": {
     "message": "Login with X"
   },
-  "home": {
-    "message": "Home"
+  "account": {
+    "message": "Account"
   },
   "quest": {
     "message": "Quest"
@@ -21,6 +21,9 @@
   },
   "referrals": {
     "message": "Referrals"
+  },
+  "whitelist_slot": {
+    "message": "Whitelist slot"
   },
   "my_bag": {
     "message": "My Bag"
@@ -42,6 +45,12 @@
   },
   "upgrade": {
     "message": "Upgrade"
+  },
+  "description_in_home": {
+    "message": "The fragments are seeking their owner. Collect all 8 fragments for a free Whitelist slot to mint your SAWorld VIPPass."
+  },
+  "min_nft_vip_pass": {
+    "message": "Claim whitelist slot!"
   },
   "newbie_quest": {
     "message": "Newbie Quests"
@@ -124,6 +133,30 @@
   "binding_quests": {
     "message": "Binding quests "
   },
+  "fragment_1": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_2": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_3": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_4": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_5": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_6": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_7": {
+    "message": "Collect all 8 fragments to claim a Whitelist Slot"
+  },
+  "fragment_8": {
+    "message": "Complete 'Binding Quests' to claim it."
+  },
   "des_skin": {
     "message": "Upgrade your Sasa or change outfits to receive more benefits"
   },
@@ -196,7 +229,6 @@
   "never_share_key": {
     "message": "Never share your private key with anyone! It controls your account. "
   },
-
   "note_key": {
     "message": "Note: Your private key is securely encrypted by a 3rd-party service and we can not access it"
   },
@@ -236,14 +268,14 @@
   "do_not_have_an_account": { "message": "Do not have an account?" },
   "enter_code": { "message": "Enter your citizen code" },
   "available": { "message": "Available" },
-  "confirm_all_information_is_exactly": { "message": "Confirm all information is exactly." },
-  "sasa_account": { "message": "SASA Account" },
+  "confirm_all_information_is_exactly": { "message": "Confirm the information provided is correct." },
+  "sasa_wallet": { "message": "SASA Wallet" },
   "transfer_your_assets": { "message": "Transfer your assets from external wallet to SA Wallet." },
   "creating_it_means": {
-    "message": "Your Sasa account will be permanently linked to this wallet?"
+    "message": "Your game account and Twitter account will be permanently linked to this wallet. Would you like to continue?"
   },
   "you_need_a_code": {
-    "message": "You need a code to participate. If you don&apos;t have one, you can find a code on our"
+    "message": "You need a code to participate. If you don't have one, you can find a code on our"
   },
   "twitter_profile": { "message": "Twitter profile" },
   "code_is_required": { "message": "Code is required." },
@@ -262,7 +294,7 @@
   "reward": { "message": "Reward" },
   "claimed": { "message": "Claimed" },
   "complete_quest": { "message": "Complete 2 quests to claim the Summer Heat Skin." },
-  "add_wallet_airdrop": { "message": " Add your wallet address to receive airdrop rewards." },
+  "add_wallet_airdrop": { "message": "Add the wallet address that is linked to your SA Account" },
   "cancel_binding": { "message": " Cancel binding" },
   "bind_sa_acocunt": { "message": "Bind to your SA Account" },
   "this_citizen_code": {
@@ -289,15 +321,92 @@
   "copy_success": { "message": "Copy successfully!" },
   "we_can_not_recover": { "message": "We can not recover this password for you." },
   "unlock": { "message": "Unlock" },
-  "enter_password": { "message": "Enter Password" },
-  "des_gem_1": {
-    "message": "Use USDT on INJ network to buy ASG packages."
+  "snowflakes_to_level_up": {
+    "message": "to level up"
   },
-  "des_gem_2": {
-    "message": "Check instructions for owning USDT >> "
+  "upgrade_sasa_or_change_outfits": {
+    "message": "Upgrade your Sasa or change outfits to receive more benefits"
   },
-  "would_you_like_to_continue": {
-    "message": "Would you like to continue"
+  "current_lv": {
+    "message": "Current LV"
+  },
+  "do_you_want_to_use": {
+    "message": "Do you want to use"
+  },
+  "lucky_box_key_info": {
+    "message": "You need a key to open the Lucky box. The key will be found in the Gold Bag."
+  },
+  "claim_ap_error": {
+    "message": "You don't have AP to claim."
+  },
+  "claim_ap": {
+    "message": "Claim AP"
+  },
+  "notification": {
+    "message": "Notification"
+  },
+  "link_sa_account_request": {
+    "message": "You have sent a request to link to SA Account. Please visit SAWorld to confirm your request information."
+  },
+  "go_to_saworld_request": {
+    "message": "Go to SAWorld"
+  },
+  "bind_sa_account_instructions": {
+    "message": "How to bind to SA Account?"
+  },
+  "whitelist_slot_won": {
+    "message": "You’ve won the whitelist slot!"
+  },
+  "claim_success_message": {
+    "message": "Claim Successfully!"
+  },
+  "go_action": {
+    "message": "Go"
+  },
+  "referred_citizens": {
+    "message": "Referred Citizens"
+  },
+  "no_data_message": {
+    "message": "No Data"
+  },
+  "import_code_instruction": {
+    "message": "Import code"
+  },
+  "wallet_message": {
+    "message": "Wallet"
+  },
+  "bag_message": {
+    "message": "Bag"
+  },
+  "confirm_password_length_error": {
+    "message": "Confirm Password must be between 8 and 36 characters long"
+  },
+  "confirm_password_uppercase_error": {
+    "message": "Confirm Password must contain at least one uppercase letter"
+  },
+  "create_transaction_failed_message": {
+    "message": "Create Transaction Failed!"
+  },
+  "confirmation_password_instruction": {
+    "message": "Enter the confirmation password that you get from the Authentication SASA."
+  },
+  "confirmation_message": {
+    "message": "Creating it means you'll be using this wallet permanently, and you won't be able to recreate it. Are you sure?"
+  },
+  "import_password_message": {
+    "message": "Import Password"
+  },
+  "create_wallet_password_message": {
+    "message": "You need to create a password for your wallet."
+  },
+  "password_required_message": {
+    "message": "You need a password to participate."
+  },
+  "enter_password": {
+    "message": "Enter Password"
+  },
+  "continue": {
+    "message": "Continue"
   },
   "bind_to_sa": {
     "message": "Bind to SA Account to explore more >> "
@@ -317,7 +426,190 @@
   "checkbox_confirm": {
     "message": "I understand that Sasa cannot recover this password for me"
   },
+  "LIMIT_TO_BUY_ITEM_EXCEEDED": {
+    "message": "You have reached the purchase limit"
+  },
+  "next_lv": {
+    "message": "Next LV"
+  },
+  "enter_priv_key_reset": {
+    "message": "Enter your private key to reset password."
+  },
+  "to": {
+    "message": "to"
+  },
+  "do_you_want_to_swap": {
+    "message": "Do you want to swap "
+  },
+  "from": {
+    "message": "from "
+  },
+  "number_character_password": {
+    "message": "Password must be between 8 and 36 characters long."
+  },
+  "at_least_uppercase": {
+    "message": "Password must contain at least one uppercase letter."
+  },
+  "maintain_1": {
+    "message": "Under maintenance."
+  },
+  "maintain_2": {
+    "message": "Sasa will be back soon."
+  },
+  "reset_password": {
+    "message": "Reset Password"
+  },
+  "you_need_enter_priv_key_reset_password": {
+    "message": "You need to enter private key to reset your password."
+  },
+  "swap": {
+    "message": "Swap"
+  },
+  "import_code": {
+    "message": "Import code"
+  },
+  "open_lucky_box": {
+    "message": "You need a key to open the Lucky box. The key will be found in the Gold Bag."
+  },
+  "send_request_to_SA_world": {
+    "message": "You have sent a request to link to SA Account. Please visit SAWorld to confirm your request information."
+  },
+  "how_to_bind_SA_account": {
+    "message": "How to bind to SA Account?"
+  },
+  "key": {
+    "message": "Key"
+  },
+  "keys": {
+    "message": "Keys"
+  },
+  "wallet": {
+    "message": "Wallet"
+  },
+  "bag": {
+    "message": "Bag"
+  },
+  "next": {
+    "message": "Next"
+  },
+  "no_data": {
+    "message": "No Data"
+  },
+  "enter_email": {
+    "message": "Enter your email"
+  },
+  "enter_email_error": {
+    "message": "Must be enter email"
+  },
+  "send_OTP": {
+    "message": "Send OTP"
+  },
+  "error": {
+    "message": "Error"
+  },
+  "OTP_NOT_VALID": {
+    "message": "OTP not valid"
+  },
+  "home": {
+    "message": "Account"
+  },
   "forgot_password": {
     "message": "Forgot your password?"
-  }
+  },
+  "would_you_like_to_continue": {
+    "message": "Would you like to continue"
+  },
+  "golden_bag_des_4": {
+    "message": "  to open the bag!"
+  },
+  "sasa_account": {
+    "message": "SASA Account"
+  },
+  "WALLET_ALREADY_CREATED": {
+    "message": ""
+  },
+  "NOT_ALLOW_PASSPHRASE": {
+    "message": ""
+  },
+  "WALLET_NOT_CREATE_YET": {
+    "message": ""
+  },
+  "INCORRECT_PASSPHRASE": {
+    "message": ""
+  },
+  "WALLET_ALREADY_EXIST": {
+    "message": ""
+  },
+
+  "INVALID_PRIVATE_KEY": {
+    "message": ""
+  },
+  "THIS_ACCOUNT_NOT_HAS_BEEN_PLAY_THIS_GAME": {
+    "message": "Game account inactive. Log in to Harvest Heist to continue"
+  },
+  "BALANCE_NOT_ENOUGH": {
+    "message": ""
+  },
+  "INVALID_WALLET": {
+    "message": ""
+  },
+  "WALLET_NOT_FOUND": {
+    "message": ""
+  },
+  "INVALID_WALLET_OWNER": {
+    "message": ""
+  },
+  "EMAIL_CONTAIN_SPECIAL_CHARACTERS": {
+    "message": ""
+  },
+  "EMAIL_ALREADY_EXIST": {
+    "message": "Email already exist"
+  },
+  "CANNOT_RESEND_OTP": {
+    "message": ""
+  },
+  "OTP_EXPIRED": {
+    "message": ""
+  },
+  "ALREADY_SEND_OTP": {
+    "message": ""
+  },
+  "verified": {
+    "message": "Verified"
+  },
+  "congratulation_verified_success": {
+    "message": "Yahoo! You have successfully verified the account."
+  },
+  "verify_your_email": {
+    "message": "Verify your email"
+  },
+  "enter_otp_text": {
+    "message": "Please enter the 4 digit code sent to"
+  },
+  "resend_code": {
+    "message": "Resend Code"
+  },
+  "change_email": {
+    "message": "Change Email"
+  },
+  "referral_code": {
+    "message": "Your referral code"
+  },
+  "reffered_citizens": {
+    "message": "Referred Citizens"
+  },
+  "citizens": {
+    "message": "Citizens"
+  },
+  "NOT_ENOUGH_USDT": {
+    "message": "Not enough USDT"
+  },
+  "NOT_ENOUGH_ASG": {
+    "message": "Not enough ASG"
+  },
+  "NOT_ENOUGH_GEM": {
+    "message": "Not enough GEM"
+  },
+  "enter_memo": { "message": "Required for sending to centralized exchanges" },
+  "memo": { "message": "Memo" }
 }

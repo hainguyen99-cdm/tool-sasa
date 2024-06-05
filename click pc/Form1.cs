@@ -1,5 +1,6 @@
 ﻿using click_pc.Controller;
 using click_pc.Helpper;
+using click_pc.Service;
 using crawl_price.Helpper;
 using Emgu.CV.Flann;
 using fox_hunter.Controllers;
@@ -30,6 +31,19 @@ namespace click_pc
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+
+            //Task.Run(async () =>
+            //{
+            //    while (true)
+            //    {
+            //        await HarvestServices.GetTokenHH();
+            //        string token = await HarvestServices.LoginGame();
+            //        await Task.Delay(1000);
+            //        await HarvestServices.Defen(token);
+            //        await Task.Delay(60000);
+            //    }
+
+            //});
             Task.Run(() =>
             {
                 List<DataGrid> dataGrids = new List<DataGrid>();
@@ -58,7 +72,10 @@ namespace click_pc
                 for (int i = 0; i < dataGrids.Count; i++)
                 {
                     webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
+                    webDriver = UtilitiesBrower.OpenBrowser(false, 1);
+
+                    //ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
+                    //TaskController.TaskLoginGame();
                     //UtilitiesBrower.CloseBrower(webDriver);
                 }
             });
@@ -146,479 +163,8 @@ namespace click_pc
             }
         }
 
-        private void btnWaterTree_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
 
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
 
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.TaskWaterTheTree();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-        }
-
-        private void btnDefen_Click(object sender, EventArgs e)
-        {
-            TaskController.FlagStop = false;
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-
-
-
-                // Khởi tạo trình duyệt cho mỗi chỉ mục trong mảng
-
-               
-                    for (int i = 0; i < dataGrids.Count; i++)
-                    {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    while (true)
-                    {
-
-                        ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                        Thread.Sleep(5000);
-
-                        TaskController.TaskLoginGame();
-                        Thread.Sleep(5000);
-                        TaskController.TaskAddDefender();
-                        Thread.Sleep(1000);
-                        webDriver.Navigate().Refresh();
-                        Thread.Sleep(5000);
-
-                        ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                        Thread.Sleep(1000);
-
-                        TaskController.TaskLoginGame();
-                        Thread.Sleep(1000);
-
-                        TaskController.TaskGachak();
-                    }
-
-
-
-                }
-            });
-        }
-
-        private void btnBuyTree5Gem_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.TaskBuyTree5Gem();
-                    UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-        }
-
-        private void btnPlanTree5_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Tree5();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-        }
-
-        private void btnBuy100Water_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Buy100Water();
-                    Thread.Sleep(1000);
-
-                    UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-        }
-
-        private void btnBuy300Water_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Buy300Water();
-                    Thread.Sleep(1000);
-
-                    UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-        }
-
-        private void btnBuy500Water_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Buy500Water();
-                    Thread.Sleep(1000);
-
-                    UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-        }
-
-        private void btnBuy1000Water_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Buy1000Water();
-                    Thread.Sleep(1000);
-
-                    UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-        }
-
-        private void btn300WaterTheTree_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Task300WaterTheTree();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-        }
-
-        private void btn500WaterTheTree_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Task500WaterTheTree();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-        }
-
-        private void btn1000WaterTheTree_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Task1000WaterTheTree();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-        }
 
         private void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -660,196 +206,179 @@ namespace click_pc
             }
         }
 
-        private void btnClaimGift_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
 
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.ClaimGift();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-
-        }
-
-        private void BtnLoop20Water_Click(object sender, EventArgs e)
-        {
-            TaskController.FlagStop = false;
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                if (dataGrids.Count > 1)
-                {
-                    MessageBox.Show("Only One");
-                    return;
-                }
-                if (txtTimeWater.Text == "")
-                {
-                    MessageBox.Show("Only One");
-                    return;
-                }
-                int time = Convert.ToInt32(txtTimeWater.Text);
-                int loop = Convert.ToInt32(txtLoop.Text);
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.Task20WaterTheTree(time, loop);
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-        }
-
-        private void btnGiftToFriend_Click(object sender, EventArgs e)
-        {
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                  bool check =  ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    if (!check)
-                    {
-                        UtilitiesBrower.CloseBrower(webDriver);
-                        continue;
-                    }
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(5000);
-                    TaskController.GiftoFriend();
-                    Thread.Sleep(1000);
-                     UtilitiesBrower.CloseBrower(webDriver);
-
-                }
-            });
-
-        }
-
-        private void btnC3_Click(object sender, EventArgs e)
-        {
-            TaskController.FlagStop = false;
-            Task.Run(() =>
-            {
-                List<DataGrid> dataGrids = new List<DataGrid>();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (!row.IsNewRow)
-                    {
-                        if (row.Cells[0].Value != null)
-                        {
-                            if (bool.Parse(row.Cells[0].Value.ToString()) == true)
-                            {
-
-                                DataGrid dataGrid = new DataGrid();
-                                // Lấy dữ liệu từ cột cụ thể, ví dụ cột đầu tiên (index = 0)
-                                dataGrid.index = Int32.Parse(row.Cells[1].Value.ToString());
-                                dataGrids.Add(dataGrid);
-
-                            }
-
-                        }
-
-                    }
-                }
-                if (dataGrids.Count > 1)
-                {
-                    MessageBox.Show("Only One");
-                    return;
-                }
-                List<string> lsCookie = new List<string>();
-                lsCookie.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cookie.txt"));
-                for (int i = 0; i < dataGrids.Count; i++)
-                {
-                    webDriver = UtilitiesBrower.OpenBrowser(false, dataGrids[i].index);
-                    ControllerAction.login(webDriver, lsCookie[dataGrids[i].index].TrimEnd(';'));
-                    TaskController.TaskLoginGame();
-                    Thread.Sleep(1000);
-                    TaskController.C3();
-                    Thread.Sleep(1000);
-                    UtilitiesBrower.CloseBrower(webDriver);
-                }
-            });
-        }
 
         private void btnStop_Click_1(object sender, EventArgs e)
         {
             TaskController.FlagStop = true;
+        }
+
+        private async void btnYescoins_Click(object sender, EventArgs e)
+        {
+            await Task.Run(async () =>
+            {
+                List<string> lsToken = new List<string>();
+                lsToken.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\yescointoken.txt"));
+                List<Task> ls = new List<Task>();
+                foreach (string token in lsToken)
+                {
+                    Task task1 = Task.Run(async () =>
+                 {
+                     await Yescoin.Yescoins(richTextBox2, token);
+
+
+                 });
+                    ls.Add(task1);
+                }
+
+                await Task.WhenAll(ls);
+            });
+
+        }
+        private static readonly Object obj = new Object();
+        private async void btnQuack_Click(object sender, EventArgs e)
+        {
+            await Task.Run(async () =>
+            {
+                try
+                {
+                    List<Task> ls = new List<Task>();
+
+                    List<string> lsToken = new List<string>();
+                    lsToken.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\quacktoken.txt"));
+                    foreach (string token in lsToken)
+                    {
+
+                        Task task1 = Task.Run(async () =>
+                    {
+
+
+                        QuackQuack.MainClaim(token, richTextBox1);
+                    });
+                        ls.Add(task1);
+
+                    }
+                    await Task.WhenAll(ls);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+                }
+            });
+
+        }
+
+        private async void btnCapa_Click(object sender, EventArgs e)
+        {
+            await Task.Run(async () =>
+            {
+                try
+                {
+                    List<Task> ls = new List<Task>();
+
+                    List<string> lsToken = new List<string>();
+                    lsToken.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\cappatoken.txt"));
+                    foreach (string token in lsToken)
+                    {
+
+                        Task task1 = Task.Run(async () =>
+                        {
+
+
+                            await Cappa.Cappacoin(richTextBox3, token);
+                        });
+                        ls.Add(task1);
+
+                    }
+                    await Task.WhenAll(ls);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+                }
+            });
+        }
+
+        private async void btnChickCoop_Click(object sender, EventArgs e)
+        {
+            await Task.Run(async () =>
+            {
+                try
+                {
+                    List<Task> ls = new List<Task>();
+
+                    List<string> lsToken = new List<string>();
+                    lsToken.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\chickcooptoken.txt"));
+
+                    foreach (string token in lsToken)
+                    {
+
+                        Task task1 = Task.Run(async () =>
+                        {
+
+
+                            await Chickcoop.Chickcoops(richTextBox4, token);
+                        });
+                        ls.Add(task1);
+
+                    }
+                    await Task.WhenAll(ls);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+                }
+            });
+        }
+
+        private async void btnmemefi_Click(object sender, EventArgs e)
+        {
+            await Task.Run(async () =>
+            {
+                try
+                {
+                    List<Task> ls = new List<Task>();
+
+                    List<string> lsToken = new List<string>();
+                    lsToken.AddRange(UtilitiesFiles.ReadFiles(Environment.CurrentDirectory + "\\tokencell.txt"));
+
+
+                    foreach (string token in lsToken)
+                    {
+
+                        Task task1 = Task.Run(async () =>
+                        {
+
+
+                            await Cell.CelllToken(richTextBox5, token);
+                        });
+                        ls.Add(task1);
+
+                    }
+                    await Task.WhenAll(ls);
+                }
+
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+                }
+            });
+        }
+
+        private async void btnPrick_Click(object sender, EventArgs e)
+        {
+            //await prick.ClaimPrick();
+            //await POP.GetPowPOP();
+            string token = await HarvestServices.LoginGame();
+            await HarvestServices.Defen(token, richTextBox6);
+        }
+
+        private async void btnpixelversexyz_Click(object sender, EventArgs e)
+        {
+            await Task.Run(async () =>
+            {
+               await pixelversexyz.Boxing(richTextBox7);
+            });
         }
     }
 }

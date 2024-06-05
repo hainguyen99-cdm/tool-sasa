@@ -1,2 +1,8 @@
-2024/05/10-17:24:27.735 6b4c Creating DB D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\Session Storage since it was missing.
-2024/05/10-17:24:27.752 6b4c Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\Session Storage/MANIFEST-000001
+2024/06/03-09:23:08.702 292c Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\Session Storage/MANIFEST-000001
+2024/06/03-09:23:08.711 292c Recovering log #13
+2024/06/03-09:23:08.712 292c Level-0 table #16: started
+2024/06/03-09:23:08.725 292c Level-0 table #16: 12659 bytes OK
+2024/06/03-09:23:08.727 292c Recovering log #16
+2024/06/03-09:23:08.736 292c Reusing old log D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\Session Storage/000016.log 
+2024/06/03-09:23:08.738 292c Delete type=0 #13
+2024/06/03-09:23:08.738 292c Delete type=2 #17

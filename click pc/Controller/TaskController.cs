@@ -13,18 +13,12 @@ namespace click_pc.Controller
         public static bool FlagStop = false;
         public static void TaskLoginGame()
         {
-            var screen = CaptureHelper.CaptureScreen();
-            var subBitmap = ImageScanOpenCV.GetImage(Environment.CurrentDirectory + "\\data\\iconGame.PNG");
-            var resBitmap = ImageScanOpenCV.FindOutPoint((Bitmap)screen, subBitmap);
-            if (resBitmap != null)
-            {
-                AutoControl.MouseClick(resBitmap.Value.X+5, resBitmap.Value.Y+10);
-            }
-            Thread.Sleep(5000);
+           
+           
             laiplay:
-            screen = CaptureHelper.CaptureScreen();
-            subBitmap = ImageScanOpenCV.GetImage(Environment.CurrentDirectory + "\\data\\play.PNG");
-            resBitmap = ImageScanOpenCV.FindOutPoint((Bitmap)screen, subBitmap);
+            var  screen = CaptureHelper.CaptureScreen();
+            var subBitmap = ImageScanOpenCV.GetImage(Environment.CurrentDirectory + "\\data\\play.PNG");
+            var resBitmap = ImageScanOpenCV.FindOutPoint((Bitmap)screen, subBitmap);
             if (resBitmap != null)
             {
                 AutoControl.MouseClick(resBitmap.Value.X, resBitmap.Value.Y);

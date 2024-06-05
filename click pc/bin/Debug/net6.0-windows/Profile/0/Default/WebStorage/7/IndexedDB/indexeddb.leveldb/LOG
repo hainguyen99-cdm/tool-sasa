@@ -1,0 +1,4 @@
+2024/05/29-09:59:53.706 11258 Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\WebStorage\7\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2024/05/29-09:59:53.706 11258 Recovering log #26
+2024/05/29-09:59:53.707 11258 Reusing old log D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\WebStorage\7\IndexedDB\indexeddb.leveldb/000026.log 
+2024/05/29-09:59:55.044 10320 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)

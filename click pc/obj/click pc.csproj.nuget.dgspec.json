@@ -55,6 +55,14 @@
             "SeleniumExtras.WaitHelpers": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "Serilog.Sinks.RichTextBox.WinForms.Colored": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "System.Net.WebSockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium.DevTools;
 
 namespace crawl_price.Helpper
 {
@@ -32,9 +33,10 @@ namespace crawl_price.Helpper
                 }
                 if (hidden) options.AddArguments("--headless");//chay an
                 options.AddArguments("--start--maximized");
-                //options.AddArguments("--proxy-server=" + "192.168.1.16" + ":" + "3344");
+                //options.AddArguments("--proxy-server=" + "192.168.1.108" + ":" + "10000");
                 options.AddArguments("load-extension=" + Environment.CurrentDirectory + "\\extension\\dist");
                 options.AddArguments("–disable-blink-features=AutomationControlled");
+                options.AddArguments("--user-agent=Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1");
                 _webDriver = new ChromeDriver(chromeDriverService, options, TimeSpan.FromMinutes(2));
                 Debug.WriteLine("tao profile");
             }

@@ -1,0 +1,12 @@
+2024/05/30-17:08:34.359 db14 Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\1\Default\IndexedDB\https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/30-17:08:34.360 db14 Recovering log #79
+2024/05/30-17:08:34.393 db14 Reusing old log D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\1\Default\IndexedDB\https_web.telegram.org_0.indexeddb.leveldb/000079.log 
+2024/05/30-17:08:38.081 c1bc Level-0 table #84: started
+2024/05/30-17:08:38.110 c1bc Level-0 table #84: 1516334 bytes OK
+2024/05/30-17:08:38.112 c1bc Delete type=0 #79
+2024/05/30-17:08:46.947 c1bc Compacting 1@1 + 1@2 files
+2024/05/30-17:08:46.969 c1bc Generated table #85@1: 1548 keys, 332256 bytes
+2024/05/30-17:08:46.969 c1bc Compacted 1@1 + 1@2 files => 332256 bytes
+2024/05/30-17:08:46.970 c1bc compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/30-17:08:46.971 c1bc Delete type=2 #81
+2024/05/30-17:08:46.971 c1bc Delete type=2 #84

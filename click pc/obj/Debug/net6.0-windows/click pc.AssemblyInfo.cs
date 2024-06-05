@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("click pc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67ac65486ff26cff70f5263bb257a0aa0953f3a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("click pc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("click pc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

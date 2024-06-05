@@ -1,0 +1,6 @@
+2024/05/31-10:16:57.258 71f4 Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\1\Default\IndexedDB\https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/31-10:16:57.259 71f4 Recovering log #83
+2024/05/31-10:16:57.261 71f4 Reusing old log D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\1\Default\IndexedDB\https_web.telegram.org_0.indexeddb.leveldb/000083.log 
+2024/05/31-10:24:03.620 4b44 Level-0 table #88: started
+2024/05/31-10:24:03.643 4b44 Level-0 table #88: 1550652 bytes OK
+2024/05/31-10:24:03.644 4b44 Delete type=0 #83

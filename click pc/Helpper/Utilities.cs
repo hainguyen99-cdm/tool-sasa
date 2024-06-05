@@ -78,7 +78,7 @@ namespace click_pc.Helpper
                 string keys = cookie[0].Trim();
 
                 // Tạo đối tượng Cookie và thêm vào trình duyệt
-                Cookie newCookie = new Cookie(keys, cookieValue, "twitter.com", "/", DateTime.Now.AddHours(1));
+                Cookie newCookie = new Cookie(keys, cookieValue, "x.com", "/", DateTime.Now.AddHours(1));
                 driver.Manage().Cookies.AddCookie(newCookie);
             }
 

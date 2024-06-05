@@ -56,3 +56,6 @@ D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\refint\click pc.dll
 D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.pdb
 D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.genruntimeconfig.cache
 D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\ref\click pc.dll
+D:\repo\click pc\click pc\click pc\obj\Debug\net6.0-windows\click pc.sourcelink.json
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Serilog.dll
+D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Serilog.Sinks.RichTextBox.WinForms.Colored.dll

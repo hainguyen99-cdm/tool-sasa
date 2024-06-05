@@ -30,16 +30,17 @@ namespace click_pc.Controller
                 webDriver.Navigate().GoToUrl("https://www.google.com/");
                 Thread.Sleep(3000);
                 webDriver.Navigate().GoToUrl("https://twitter.com/Home");
+                Thread.Sleep(3000);
 
                 string url = webDriver.Url;
-                if (url == "https://twitter.com/i/flow/login?redirect_after_login=%2FHome")
+                if (url == "https://x.com/i/flow/login?redirect_after_login=%2FHome")
                 {
                     indexLogin++;
                     Utilities.AddCookie(webDriver, cookie);
                     Thread.Sleep(5000);
                     webDriver.Navigate().GoToUrl("https://twitter.com/Home");
                     url = webDriver.Url;
-                    if (url == "https://twitter.com/i/flow/login?redirect_after_login=%2FHome")
+                    if (url == "https://x.com/i/flow/login?redirect_after_login=%2FHome")
                     {
                         goto goX;
                     }

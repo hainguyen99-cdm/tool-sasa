@@ -1,0 +1,39 @@
+2024/05/31-10:33:27.999 1200c Reusing MANIFEST D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\IndexedDB\https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/31-10:33:27.999 1200c Recovering log #339
+2024/05/31-10:33:28.004 1200c Reusing old log D:\repo\click pc\click pc\click pc\bin\Debug\net6.0-windows\Profile\0\Default\IndexedDB\https_web.telegram.org_0.indexeddb.leveldb/000339.log 
+2024/05/31-10:45:02.638 1200c Level-0 table #344: started
+2024/05/31-10:45:02.672 1200c Level-0 table #344: 1471080 bytes OK
+2024/05/31-10:45:02.800 1200c Delete type=0 #339
+2024/05/31-10:45:30.407 4c24 Compacting 1@1 + 1@2 files
+2024/05/31-10:45:30.432 4c24 Generated table #345@1: 2789 keys, 518404 bytes
+2024/05/31-10:45:30.432 4c24 Compacted 1@1 + 1@2 files => 518404 bytes
+2024/05/31-10:45:30.433 4c24 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/31-10:45:30.434 4c24 Delete type=2 #341
+2024/05/31-10:45:30.434 4c24 Delete type=2 #344
+2024/05/31-11:04:24.803 1200c Level-0 table #347: started
+2024/05/31-11:04:24.835 1200c Level-0 table #347: 1427418 bytes OK
+2024/05/31-11:04:24.837 1200c Delete type=0 #343
+2024/05/31-11:05:01.103 4c24 Compacting 1@1 + 1@2 files
+2024/05/31-11:05:01.159 4c24 Generated table #348@1: 2751 keys, 506592 bytes
+2024/05/31-11:05:01.159 4c24 Compacted 1@1 + 1@2 files => 506592 bytes
+2024/05/31-11:05:01.160 4c24 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/31-11:05:01.160 4c24 Delete type=2 #345
+2024/05/31-11:05:01.160 4c24 Delete type=2 #347
+2024/05/31-11:23:22.243 e1c8 Level-0 table #350: started
+2024/05/31-11:23:22.284 e1c8 Level-0 table #350: 1422052 bytes OK
+2024/05/31-11:23:22.286 e1c8 Delete type=0 #346
+2024/05/31-11:23:39.814 4c24 Compacting 1@1 + 1@2 files
+2024/05/31-11:23:39.848 4c24 Generated table #351@1: 2778 keys, 510220 bytes
+2024/05/31-11:23:39.848 4c24 Compacted 1@1 + 1@2 files => 510220 bytes
+2024/05/31-11:23:39.849 4c24 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/31-11:23:39.850 4c24 Delete type=2 #348
+2024/05/31-11:23:39.850 4c24 Delete type=2 #350
+2024/05/31-11:40:05.581 1200c Level-0 table #353: started
+2024/05/31-11:40:05.659 1200c Level-0 table #353: 1431506 bytes OK
+2024/05/31-11:40:05.662 1200c Delete type=0 #349
+2024/05/31-11:40:23.858 4c24 Compacting 1@1 + 1@2 files
+2024/05/31-11:40:23.941 4c24 Generated table #354@1: 2764 keys, 515434 bytes
+2024/05/31-11:40:23.941 4c24 Compacted 1@1 + 1@2 files => 515434 bytes
+2024/05/31-11:40:23.943 4c24 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/31-11:40:23.944 4c24 Delete type=2 #351
+2024/05/31-11:40:23.946 4c24 Delete type=2 #353
